@@ -1,2 +1,2 @@
 # calculadora-dio
-desafio de projeto da diome
+desafio de projeto da diome de fit/github
