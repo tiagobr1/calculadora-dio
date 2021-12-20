@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculadora</title>
+</head>
+<body>
+    <form action="" id="form" name="calculadora">
+      <input type="text" id="visor" name="visor" valor ="0" disabled> </input>
+      <input type="button" id="delete" value="c" onclick="apaga()"></input>
+        <section>
+            <input id="um" type="button" value="1" name="btn1" onclick="calcular(value)"> </input>
+            <input type="button" id="dois" value="2" name="btn2" onclick="calcular(value)">  </input>
+            <input id="tres" type="button" value="3" name="btn3" onclick="calcular(value)">  </input>
+            <input id="mais" type="button" value="+" name="btnMais" onclick="calcular(value)">  </input>
+
+            <input id="quatro" type="button" value="4" name="btn4" onclick="calcular(value)">  </input>
+            <input id="cinco" type="button" value="5" name="btn5" onclick="calcular(value)">  </input>
+            <input id="seis" type="button" value="6" name="btn6" onclick="calcular(value)">  </input>
+            <input id="menos" type="button" value="-" name="btn-" onclick="calcular(value)">  </input>
+
+            <input id="sete" type="button" value="7" name="btn7" onclick="calcular(value)">  </input>
+            <input id="oito" type="button" value="8" name="btn8" onclick="calcular(value)">  </input>
+            <input id="nove" type="button" value="9" name="btn9" onclick="calcular(value)">  </input>
+            <input id="vezes" type="button" value="*" name="btnVezes" onclick="calcular(value)">  </input>
+
+            <input id="zero" type="button" value="/" name="btnDividir" onclick="calcular(value)">  </input>
+            <input id="dividir" type="button" value="0" name="btn0" onclick="calcular(value)">  </input>
+            <input id="ponto" type="button" value="." name="btnPonto" onclick="calcular(value)">  </input>
+            <input id="igual" type="button" value="=" name="btnIgual" onclick="resultCalcular()">  </input>
+        </section>
+    </form>
+</body>
+<script src="index.js" defer></script>
+</html>

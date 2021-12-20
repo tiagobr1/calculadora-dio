@@ -1,0 +1,49 @@
+body{
+    margin: auto;
+    width: 100%;
+    min-width: 450px;  
+    background-image: linear-gradient(to left, black,darkred); 
+}
+
+form{
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    background-color: rgb(51, 48, 48);
+}
+#delete{
+    margin-top:10px ;
+    width: 30px;
+    height: 30px;
+
+}
+
+
+
+#visor{
+    border:1px solid black;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    margin: 10px 15px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 35px;
+    background-color: white;
+    padding: 10px;
+  
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 20px;
+    gap: 5px;
+    width: 300px;
+    height: 200px;
+}
+
